@@ -1,0 +1,140 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+   margin:0;
+   padding:0;
+}
+.container{
+    background-color: #d0d0d0;
+    width: 95%;
+}
+/*for the whole part  --completed*/
+
+.navigation_bar{
+    background-color: #333333;
+    margin: 0;
+    padding: 0;
+}
+.navigation_bar a{
+	font-size:x-small;
+	color: #FFF;
+	text-align:center;
+}
+.navigation_bar a:link {
+	text-decoration: none;
+}
+.navigation_bar a:visited {
+	text-decoration: none;
+	color: #F00;
+}
+.navigation_bar a:hover {
+	text-decoration: none;
+	color: #999;
+}
+.navigation_bar a:active {
+	text-decoration: none;
+	color: #999;
+}
+.navigation_bar ul{
+    float:right;
+	margin-top:-33px;
+}
+.navigation_bar li{
+    float:left;
+	width:85px;
+}
+/*style for navigation bar  --completed*/                                         
+
+.article_one{
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+}
+.second_title{
+    font-size:18px;
+	color:#666;
+}
+.author_time{
+    font-size:smaller;
+	color:#666;
+}
+/*style for article_one  --completed*/
+
+.article_two{
+    background-color: white;
+    margin: 20px;
+    padding: 15px;
+}
+.article_two ul{
+    list-style-type:none;
+}
+/*style for article_two  --completed*/
+
+.pictures{
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+}
+.one_picture{
+	padding:20px;
+    border:#999 solid 1px;
+	text-align:center;
+	width:200px;
+}
+/*style for pictures  --completed*/
+
+.article_three{
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+}
+.article_three table{
+	font-family:"Arial Black", Gadget, sans-serif;
+    border-collapse:collapse;
+	width:100%;	
+}
+.article_three td,.article_three th{
+    border:1px solid #d0d0d0;
+	font-size:12px;
+}
+.article_three th{
+	font-size:14px;
+    text-align:left;
+	color:#FFF;
+	background-color:#000;
+}
+.all{
+    background-color:#d0d0d0;
+}
+/*style for article_three  --completed*/
+
+.side_bar{
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+}
+.side_bar_content{
+    margin-left:280px;
+}
+.tip{
+	font-size:smaller;
+	color:#666;
+}
+.submit_button{
+	font-size:16px;
+    background-color:#09F;
+	text-align:center;
+	border: none;
+    color: white;
+	border-radius: 12px;
+	width:100%;
+	height:40px;
+	padding: 15px 32px;
+	margin: 4px 1px;
+    text-decoration: none;
+    display: inline-block;
+	cursor: pointer;
+}
+/*style for side_bar*/
+
+
