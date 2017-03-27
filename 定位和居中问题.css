@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+#container{
+    padding:0;
+	margin:0;
+	border:1px solid #CCC;
+	height:600px;
+	width:600px;
+	position:relative;
+}
+#rectangle{
+	background-color:#999;
+    width:400px;
+	height:200px;
+	padding:20px;
+    position:absolute;
+	top:50%;
+	left:50%;
+	margin: -120px 0 0 -220px;
+}
+#circular_bead_one,#circular_bead_two{
+	background-color:#FF3;
+	position:absolute;
+}
+#circular_bead_one{
+    top:0;
+	left:0;
+	height:80px;
+	width:80px;
+	border-radius:0 0 80px 0;
+}
+#circular_bead_two{
+	bottom:0;
+	right:0;
+	height:80px;
+	width:80px;
+	border-radius:80px 0 0 0;
+}
